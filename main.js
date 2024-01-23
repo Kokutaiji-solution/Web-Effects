@@ -1,4 +1,5 @@
 function main() {
+    console.log()
 }
 
 // クリックしたら音を鳴らす
