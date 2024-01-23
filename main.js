@@ -1,5 +1,4 @@
 function main() {
-    
 }
 
 function clickSound(option) {
