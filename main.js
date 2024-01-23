@@ -1,4 +1,18 @@
 function main() {
+    const audio1 = new Audio();
+    const audio2 = new Audio();
+    const audio3 = new Audio();
+    const audio4 = new Audio();
+
+    const option1 = {
+
+    }
+    const option2 = {
+
+    }
+
+    clickSound();
+    keyboardSound();
 }
 
 function clickSound(option) {
