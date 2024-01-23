@@ -1,4 +1,5 @@
 function main() {
+
 }
 
 // クリックしたら音を鳴らす
@@ -54,3 +55,5 @@ function clickParticle() {
 function keyboardParticle() {
 
 }
+
+main();
