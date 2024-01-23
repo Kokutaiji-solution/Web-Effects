@@ -2,11 +2,9 @@ function main() {
 
 }
 
-// クリックしたら音を鳴らす
 function clickSound(option) {
     document.addEventListener('mousedown', function (mouseEvent) {
         var tempSound = new Audio();
-        console.log(mouseEvent.button)
         if (mouseEvent.button == 0) {
             if (option.buttons.left) {
                 tempSound.src = option.buttons.left.src;
@@ -30,11 +28,9 @@ function clickSound(option) {
     })
 }
 
-// キーを押したら音を鳴らす
 function keyboardSound(option) {
     window.onkeydown = function (e) {
         const tempSound = new Audio();
-        console.log(e.key)
         if (option.keys[e.key]) {
             tempSound.src = option.keys[e.key].src;
         } else {
