@@ -5,7 +5,7 @@ function main() {
     const audio4 = new Audio();
 
     const option1 = {
-        
+
     }
     const option2 = {
 
@@ -39,6 +39,7 @@ function clickSound(option) {
         }
         tempSound.play();
     })
+    
 }
 
 function keyboardSound(option) {
