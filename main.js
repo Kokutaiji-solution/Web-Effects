@@ -1,5 +1,7 @@
 function main() {
-
+    const option = {
+        
+    }
 }
 
 // クリックしたら音を鳴らす
