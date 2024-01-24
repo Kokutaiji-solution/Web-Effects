@@ -3,7 +3,13 @@ function main() {
         default: new Audio("./sounds/mouse1.mp3"),
         buttons: {}
     }
+    const option2 = {
+        default: new Audio("./sounds/key1.mp3"),
+        keys: {}
+    }
+    
     clickSound(option1);
+    keyboardSound(option2);
 }
 
 // クリックしたら音を鳴らす
