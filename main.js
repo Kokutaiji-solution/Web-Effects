@@ -52,7 +52,6 @@ function keyboardSound(option) {
         }
         tempSound.currentTime = 0;
         tempSound.play();
-
     }
 }
 
