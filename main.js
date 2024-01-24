@@ -8,7 +8,7 @@ function main() {
 
     }
     const option2 = {
-
+        
     }
 
     clickSound();
