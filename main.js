@@ -1,6 +1,7 @@
 function main() {
     const option1 = {
-        default: new Audio("./sounds/mouswe1.mp3")
+        default: new Audio("./sounds/mouse1.mp3"),
+        buttons: {}
     }
     clickSound(option1);
 }
@@ -58,3 +59,6 @@ function clickParticle() {
 function keyboardParticle() {
 
 }
+
+
+main()
