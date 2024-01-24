@@ -5,9 +5,11 @@ function main() {
     }
     const option2 = {
         default: new Audio("./sounds/key1.mp3"),
-        keys: {}
+        keys: {
+            " ": new Audio("./sounds/mouse1.mp3"),
+        }
     }
-    
+
     clickSound(option1);
     keyboardSound(option2);
 }
