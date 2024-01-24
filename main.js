@@ -1,8 +1,8 @@
 function main() {
-    const option = {
-
+    const option1 = {
+        default: new Audio("./sounds/mouswe1.mp3")
     }
-    clickSound()
+    clickSound(option1);
 }
 
 // クリックしたら音を鳴らす
