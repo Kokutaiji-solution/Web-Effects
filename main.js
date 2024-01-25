@@ -9,6 +9,7 @@ function main() {
             " ": new Audio("./sounds/mouse1.mp3"),
         }
     }
+    
 
     clickSound(option1);
     keyboardSound(option2);
