@@ -1,15 +1,14 @@
 function main() {
     const option1 = {
-        default: new Audio("./sounds/mouse1.mp3"),
+        default: new Audio(chrome.runtime.getURL("/sounds/mouse1.mp3")),
         buttons: {}
     }
     const option2 = {
-        default: new Audio("./sounds/key1.mp3"),
+        default: new Audio(chrome.runtime.getURL("./sounds/key1.mp3")),
         keys: {
-            " ": new Audio("./sounds/mouse1.mp3"),
+            " ": new Audio(chrome.runtime.getURL("./sounds/mouse1.mp3")),
         }
     }
-    
 
     clickSound(option1);
     keyboardSound(option2);
